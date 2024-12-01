@@ -4,6 +4,7 @@ using InventarioVentas.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace InventarioVentas.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241201164022_TablasClienteyVentas")]
+    partial class TablasClienteyVentas
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -83,37 +86,15 @@ namespace InventarioVentas.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("ClienteId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("Fecha")
                         .HasColumnType("datetime2");
 
                     b.Property<decimal>("Total")
-                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ClienteId");
-
                     b.ToTable("venta");
-                });
-
-            modelBuilder.Entity("InventarioVentas.Models.Venta", b =>
-                {
-                    b.HasOne("InventarioVentas.Models.Cliente", "Cliente")
-                        .WithMany("Ventas")
-                        .HasForeignKey("ClienteId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Cliente");
-                });
-
-            modelBuilder.Entity("InventarioVentas.Models.Cliente", b =>
-                {
-                    b.Navigation("Ventas");
                 });
 #pragma warning restore 612, 618
         }
