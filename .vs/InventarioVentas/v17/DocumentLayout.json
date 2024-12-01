@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|c:\\users\\ayrebi_laptop-gamer\\desktop\\universidad\\inventarioventas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|solutionrelative:controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-01T04:43:04.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "Controllers\\ProductosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T04:47:25.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T04:34:56.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T04:39:11.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Models\\Producto.cs",
+              "RelativeToolTip": "Models\\Producto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T04:38:49.283Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
