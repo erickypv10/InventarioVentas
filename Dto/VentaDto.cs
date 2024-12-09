@@ -8,5 +8,13 @@
 
         // Clave foránea para Cliente
         public int ClienteId { get; set; }
+        public List<VentaProductoDto> VentaProductos { get; set; } = new List<VentaProductoDto>();
+
+
+    }
+    public class VentaProductoDto
+    {
+        public int ProductoId { get; set; }
+        public int Cantidad { get; set; }
     }
 }

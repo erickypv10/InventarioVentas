@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using InventarioVentas.Data;
+using AutoMapper;
 
 namespace InventarioVentas.Controllers
 {
@@ -13,111 +14,50 @@ namespace InventarioVentas.Controllers
     public class ClientesController : ControllerBase
     {
         private readonly AppDbContext _context;
+        private readonly IMapper mapper;
 
-        public ClientesController(AppDbContext context)
+        public ClientesController(AppDbContext context, IMapper mapper)
         {
             _context = context;
+            this.mapper = mapper;
         }
 
-        // GET: api/clientes
-        [HttpGet]
-        public ActionResult<IEnumerable<ClienteDto>> GetClientes()
-        {
-            var clientes = _context.cliente.Select(c => new ClienteDto
-            {
-                Id = c.Id,
-                Nombre = c.Nombre,
-                CorreoElectronico = c.CorreoElectronico,
-                Telefono = c.Telefono,
-                Direccion = c.Direccion
-            }).ToList();
-
-            return Ok(clientes);
-        }
-
-        // GET: api/clientes/{id}
-        [HttpGet("{id}")]
-        public ActionResult<ClienteDto> GetCliente(int id)
-        {
-            var cliente = _context.cliente.Find(id);
-            if (cliente == null)
-            {
-                return NotFound();
-            }
-
-            var clienteDto = new ClienteDto
-            {
-                Id = cliente.Id,
-                Nombre = cliente.Nombre,
-                CorreoElectronico = cliente.CorreoElectronico,
-                Telefono = cliente.Telefono,
-                Direccion = cliente.Direccion
-            };
-
-            return Ok(clienteDto);
-        }
-
-        // POST: api/clientes
         [HttpPost]
-        public ActionResult<ClienteDto> PostCliente(ClienteDto clienteDto)
+        public async Task<ActionResult> Post(ClienteDto clienteDto)
         {
-            var cliente = new Cliente
-            {
-                Nombre = clienteDto.Nombre,
-                CorreoElectronico = clienteDto.CorreoElectronico,
-                Telefono = clienteDto.Telefono,
-                Direccion = clienteDto.Direccion
-            };
-
-            _context.cliente.Add(cliente);
-            _context.SaveChanges();
-
-            clienteDto.Id = cliente.Id;
-
-            return CreatedAtAction(nameof(GetCliente), new { id = cliente.Id }, clienteDto);
+            var cliente = mapper.Map<Cliente>(clienteDto);
+            _context.Add(cliente);
+            await _context.SaveChangesAsync();
+            return Ok();
         }
 
-        // PUT: api/clientes/{id}
-        [HttpPut("{id}")]
-        public IActionResult PutCliente(int id, ClienteDto clienteDto)
+        [HttpGet("nombre")]
+        public async Task<ActionResult<IEnumerable<Cliente>>> Get(string nombre)
         {
-            if (id != clienteDto.Id)
-            {
-                return BadRequest();
-            }
+            return await _context.cliente.Where(c => c.Nombre == nombre).ToListAsync();
 
-            var cliente = _context.cliente.Find(id);
-            if (cliente == null)
-            {
-                return NotFound();
-            }
-
-            // Actualizar el modelo usando los datos del DTO
-            cliente.Nombre = clienteDto.Nombre;
-            cliente.CorreoElectronico = clienteDto.CorreoElectronico;
-            cliente.Telefono = clienteDto.Telefono;
-            cliente.Direccion = clienteDto.Direccion;
-
-            _context.Entry(cliente).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
-            _context.SaveChanges();
-
-            return NoContent();
         }
 
-        // DELETE: api/clientes/{id}
-        [HttpDelete("{id}")]
-        public IActionResult DeleteCliente(int id)
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Cliente>>> Get()
         {
-            var cliente = _context.cliente.Find(id);
-            if (cliente == null)
-            {
-                return NotFound();
-            }
+            return await _context.cliente.ToListAsync();
+        }
 
-            _context.cliente.Remove(cliente);
-            _context.SaveChanges();
+        [HttpGet("direccion")]
+        public async Task<ActionResult<IEnumerable<Cliente>>> GetDireccion(string direccion)
+        {
+            return await _context.cliente.Where(c => c.Direccion.Contains(direccion)).ToListAsync();
+        }
 
-            return NoContent();
+        [HttpPut("id")]
+        public async Task<ActionResult> Put(int id, ClienteDto clienteDto)
+        {
+            var cliente = mapper.Map<Cliente>(clienteDto);
+            cliente.Id = id;
+            _context.Update(cliente);
+            await _context.SaveChangesAsync();
+            return Ok();
         }
     }
 }

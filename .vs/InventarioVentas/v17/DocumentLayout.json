@@ -3,52 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|c:\\users\\ayrebi_laptop-gamer\\desktop\\universidad\\inventarioventas\\models\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|solutionrelative:models\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|c:\\users\\ayrebi_laptop-gamer\\desktop\\universidad\\inventarioventas\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|solutionrelative:models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|c:\\users\\ayrebi_laptop-gamer\\desktop\\universidad\\inventarioventas\\dto\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|solutionrelative:dto\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|c:\\users\\ayrebi_laptop-gamer\\desktop\\universidad\\inventarioventas\\dto\\ventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|solutionrelative:dto\\ventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|c:\\users\\ayrebi_laptop-gamer\\desktop\\universidad\\inventarioventas\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|solutionrelative:controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|c:\\users\\ayrebi_laptop-gamer\\desktop\\universidad\\inventarioventas\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|solutionrelative:controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|solutionrelative:controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\dto\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|solutionrelative:dto\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|c:\\users\\ayrebi_laptop-gamer\\desktop\\universidad\\inventarioventas\\dto\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|solutionrelative:dto\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\utils\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|solutionrelative:utils\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|c:\\users\\ayrebi_laptop-gamer\\desktop\\universidad\\inventarioventas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2675E0-34FC-49A3-B387-9D44E2CD98D1}|InventarioVentas.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,171 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-01T04:43:04.294Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AutoMapperProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Utils\\AutoMapperProfiles.cs",
+              "RelativeDocumentMoniker": "Utils\\AutoMapperProfiles.cs",
+              "ToolTip": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Utils\\AutoMapperProfiles.cs",
+              "RelativeToolTip": "Utils\\AutoMapperProfiles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T13:36:49.631Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "VentaDto.cs",
-              "DocumentMoniker": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Dto\\VentaDto.cs",
-              "RelativeDocumentMoniker": "Dto\\VentaDto.cs",
-              "ToolTip": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Dto\\VentaDto.cs",
-              "RelativeToolTip": "Dto\\VentaDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAuwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T16:51:22.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T04:39:11.495Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ClienteDto.cs",
               "DocumentMoniker": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Dto\\ClienteDto.cs",
               "RelativeDocumentMoniker": "Dto\\ClienteDto.cs",
               "ToolTip": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Dto\\ClienteDto.cs",
               "RelativeToolTip": "Dto\\ClienteDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T16:51:12.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T16:51:12.128Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProductoDto.cs",
-              "DocumentMoniker": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Dto\\ProductoDto.cs",
-              "RelativeDocumentMoniker": "Dto\\ProductoDto.cs",
-              "ToolTip": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Dto\\ProductoDto.cs",
-              "RelativeToolTip": "Dto\\ProductoDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T16:51:02.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "VentasController.cs",
-              "DocumentMoniker": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Controllers\\VentasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\VentasController.cs",
-              "ToolTip": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Controllers\\VentasController.cs",
-              "RelativeToolTip": "Controllers\\VentasController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHAAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T16:39:08.567Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "ClientesController.cs",
               "DocumentMoniker": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Controllers\\ClientesController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClientesController.cs",
               "ToolTip": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Controllers\\ClientesController.cs",
               "RelativeToolTip": "Controllers\\ClientesController.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAowHQAAAAcAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAA2wDgAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T16:38:40.522Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Ventas.cs",
-              "DocumentMoniker": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Models\\Ventas.cs",
-              "RelativeDocumentMoniker": "Models\\Ventas.cs",
-              "ToolTip": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Models\\Ventas.cs",
-              "RelativeToolTip": "Models\\Ventas.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T16:36:28.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "Models\\Cliente.cs",
-              "ToolTip": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Models\\Cliente.cs",
-              "RelativeToolTip": "Models\\Cliente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T16:36:14.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-01T04:43:04.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductosController.cs",
-              "DocumentMoniker": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Controllers\\ProductosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductosController.cs",
-              "ToolTip": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Controllers\\ProductosController.cs",
-              "RelativeToolTip": "Controllers\\ProductosController.cs",
-              "ViewState": "AQIAAGoAAAAAAAAAAAAcwEYAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T04:47:25.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T04:34:56.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAIwBoAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T04:39:11.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Models\\Producto.cs",
-              "RelativeDocumentMoniker": "Models\\Producto.cs",
-              "ToolTip": "C:\\Users\\AYREBI_LAPTOP-GAMER\\Desktop\\universidad\\InventarioVentas\\Models\\Producto.cs",
-              "RelativeToolTip": "Models\\Producto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T04:38:49.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T04:34:56.577Z"
             }
           ]
         }

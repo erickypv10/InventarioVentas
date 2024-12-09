@@ -1,4 +1,6 @@
-﻿namespace InventarioVentas.Models
+﻿using System.Collections;
+
+namespace InventarioVentas.Models
 {
     public class Venta
     {
@@ -9,5 +11,6 @@
         // Clave foránea para Cliente
         public int ClienteId { get; set; }
         public Cliente Cliente { get; set; } // Relación con el cliente
+        public ICollection<VentaProducto> VentaProductos { get; set; } = new List<VentaProducto>();
     }
 }

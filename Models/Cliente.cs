@@ -7,8 +7,10 @@
         public string CorreoElectronico { get; set; }
         public string Telefono { get; set; }
         public string Direccion { get; set; }
+        public string Contraseña { get; set; }
 
         // Relación con Ventas
         public ICollection<Venta> Ventas { get; set; } = new List<Venta>();
+       
     }
 }

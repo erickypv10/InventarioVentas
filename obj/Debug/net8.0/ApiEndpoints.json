@@ -1,27 +1,7 @@
 [
   {
     "ContainingType": "InventarioVentas.Controllers.ClientesController",
-    "Method": "GetClientes",
-    "RelativePath": "api/Clientes",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[InventarioVentas.Dto.ClienteDto, InventarioVentas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "InventarioVentas.Controllers.ClientesController",
-    "Method": "PostCliente",
+    "Method": "Post",
     "RelativePath": "api/Clientes",
     "HttpMethod": "POST",
     "IsController": true,
@@ -33,9 +13,19 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioVentas.Controllers.ClientesController",
+    "Method": "Get",
+    "RelativePath": "api/Clientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "InventarioVentas.Dto.ClienteDto",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[InventarioVentas.Models.Cliente, InventarioVentas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -47,21 +37,21 @@
   },
   {
     "ContainingType": "InventarioVentas.Controllers.ClientesController",
-    "Method": "GetCliente",
-    "RelativePath": "api/Clientes/{id}",
+    "Method": "GetDireccion",
+    "RelativePath": "api/Clientes/direccion",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
+        "Name": "direccion",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "InventarioVentas.Dto.ClienteDto",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[InventarioVentas.Models.Cliente, InventarioVentas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -73,36 +63,46 @@
   },
   {
     "ContainingType": "InventarioVentas.Controllers.ClientesController",
-    "Method": "PutCliente",
-    "RelativePath": "api/Clientes/{id}",
+    "Method": "Get",
+    "RelativePath": "api/Clientes/nombre",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[InventarioVentas.Models.Cliente, InventarioVentas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "InventarioVentas.Controllers.ClientesController",
+    "Method": "Put",
+    "RelativePath": "api/Clientes/nombre",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
       },
       {
         "Name": "clienteDto",
         "Type": "InventarioVentas.Dto.ClienteDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "InventarioVentas.Controllers.ClientesController",
-    "Method": "DeleteCliente",
-    "RelativePath": "api/Clientes/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -325,6 +325,32 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioVentas.Controllers.VentasController",
+    "Method": "GetVentasPorCliente",
+    "RelativePath": "api/Ventas/clientes/{clienteId}/ventas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clienteId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[InventarioVentas.Dto.VentaDto, InventarioVentas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "InventarioVentas.Controllers.WeatherForecastController",

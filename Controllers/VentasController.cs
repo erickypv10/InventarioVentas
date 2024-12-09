@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
 using InventarioVentas.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace InventarioVentas.Controllers
 {
@@ -34,6 +35,32 @@ namespace InventarioVentas.Controllers
             return Ok(ventas);
         }
 
+
+
+        // GET: api/clientes/{clienteId}/ventas
+        [HttpGet("clientes/{clienteId}/ventas")]
+        public async Task<ActionResult<IEnumerable<VentaDto>>> GetVentasPorCliente(int clienteId)
+        {
+            var ventas = await _context.venta
+                .Where(v => v.ClienteId == clienteId)
+                .Select(v => new VentaDto
+                {
+                    Id = v.Id,
+                    Fecha = v.Fecha,
+                    Total = v.Total,
+                    ClienteId = v.ClienteId,
+                    VentaProductos = v.VentaProductos.Select(vp => new VentaProductoDto
+                    {
+                        ProductoId = vp.ProductoId,
+                        Cantidad = vp.Cantidad
+                    }).ToList()
+                }).ToListAsync();
+
+            return Ok(ventas);
+        }
+
+
+
         // GET: api/ventas/{id}
         [HttpGet("{id}")]
         public ActionResult<VentaDto> GetVenta(int id)
@@ -55,24 +82,44 @@ namespace InventarioVentas.Controllers
             return Ok(ventaDto);
         }
 
-        // POST: api/ventas
+
+
+
         [HttpPost]
-        public ActionResult<VentaDto> PostVenta(VentaDto ventaDto)
+        public async Task<ActionResult<VentaDto>> PostVenta(VentaDto ventaDto)
         {
             var venta = new Venta
             {
-                Fecha = DateTime.Now, // O la fecha que desees usar
-                Total = ventaDto.Total, // Asigna el total desde el DTO
-                ClienteId = ventaDto.ClienteId // Asigna el cliente desde el DTO
+                Fecha = DateTime.Now,
+                Total = ventaDto.Total,
+                ClienteId = ventaDto.ClienteId,
+                VentaProductos = ventaDto.VentaProductos.Select(vp => new VentaProducto
+                {
+                    ProductoId = vp.ProductoId,
+                    Cantidad = vp.Cantidad
+                }).ToList()
             };
 
             _context.venta.Add(venta);
-            _context.SaveChanges();
 
-            ventaDto.Id = venta.Id; // Asigna el ID generado
+            // Actualizar el stock de los productos vendidos
+            foreach (var vp in venta.VentaProductos)
+            {
+                var producto = await _context.productos.FindAsync(vp.ProductoId);
+                if (producto != null)
+                {
+                    producto.Stock -= vp.Cantidad;
+                    _context.Entry(producto).State = EntityState.Modified;
+                }
+            }
+
+            await _context.SaveChangesAsync();
 
             return CreatedAtAction(nameof(GetVenta), new { id = venta.Id }, ventaDto);
         }
+
+
+
 
         // PUT: api/ventas/{id}
         [HttpPut("{id}")]

@@ -283,3 +283,5 @@ C:\Users\AYREBI_LAPTOP-GAMER\Desktop\universidad\InventarioVentas\obj\Debug\net8
 C:\Users\AYREBI_LAPTOP-GAMER\Desktop\universidad\InventarioVentas\obj\Debug\net8.0\InventarioVentas.genruntimeconfig.cache
 C:\Users\AYREBI_LAPTOP-GAMER\Desktop\universidad\InventarioVentas\obj\Debug\net8.0\ref\InventarioVentas.dll
 C:\Users\AYREBI_LAPTOP-GAMER\Desktop\universidad\InventarioVentas\obj\Debug\net8.0\InventarioVentas.sourcelink.json
+C:\Users\AYREBI_LAPTOP-GAMER\Desktop\universidad\InventarioVentas\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\AYREBI_LAPTOP-GAMER\Desktop\universidad\InventarioVentas\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
